@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TvShowListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TvShowListViewController: ColorUIViewController, UITableViewDataSource, UITableViewDelegate {
     var tvShows = [] as Array<TvShow>
     var taskRunning: Bool = false;
     var task: URLSessionTask? = nil;
@@ -19,8 +19,11 @@ class TvShowListViewController: UIViewController, UITableViewDataSource, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "TV Series";
+        
         tableView.dataSource = self;
         tableView.delegate = self;
+        // self.tableView.backgroundColor = uiColor;
     }
 
     override func didReceiveMemoryWarning() {

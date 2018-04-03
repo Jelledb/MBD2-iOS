@@ -16,6 +16,8 @@
 		6038FCF1206D0DCD000E78B9 /* Eindopdracht_MBD2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6038FCF0206D0DCD000E78B9 /* Eindopdracht_MBD2UITests.swift */; };
 		6038FD03206D20C7000E78B9 /* TvShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6038FD02206D20C7000E78B9 /* TvShow.swift */; };
 		6038FD05206D3928000E78B9 /* TvShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6038FD04206D3928000E78B9 /* TvShowDetailViewController.swift */; };
+		604F53592073BD60000CCAD4 /* ColorUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F53582073BD60000CCAD4 /* ColorUIViewController.swift */; };
+		60F992E42073B50C0097863C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F992E32073B50C0097863C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		6038FCF2206D0DCD000E78B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6038FD02206D20C7000E78B9 /* TvShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShow.swift; sourceTree = "<group>"; };
 		6038FD04206D3928000E78B9 /* TvShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowDetailViewController.swift; sourceTree = "<group>"; };
+		604F53582073BD60000CCAD4 /* ColorUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUIViewController.swift; sourceTree = "<group>"; };
+		60F992E32073B50C0097863C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "Eindopdracht-MBD2/Application/Main/Settings/SettingsViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 		6038FCFF206D18ED000E78B9 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				60F992E52073B51A0097863C /* Settings */,
 				6038FD01206D1958000E78B9 /* TvShows */,
 				6038FD00206D193E000E78B9 /* Main */,
 			);
@@ -150,6 +155,7 @@
 			children = (
 				6038FCD0206D0DCC000E78B9 /* AppDelegate.swift */,
 				6038FCD4206D0DCC000E78B9 /* Main.storyboard */,
+				604F53582073BD60000CCAD4 /* ColorUIViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -161,6 +167,15 @@
 				6038FD04206D3928000E78B9 /* TvShowDetailViewController.swift */,
 			);
 			path = TvShows;
+			sourceTree = "<group>";
+		};
+		60F992E52073B51A0097863C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				60F992E32073B50C0097863C /* SettingsViewController.swift */,
+			);
+			name = Settings;
+			path = Main/Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +315,8 @@
 				6038FD05206D3928000E78B9 /* TvShowDetailViewController.swift in Sources */,
 				6038FD03206D20C7000E78B9 /* TvShow.swift in Sources */,
 				6038FCD3206D0DCC000E78B9 /* TvShowListViewController.swift in Sources */,
+				60F992E42073B50C0097863C /* SettingsViewController.swift in Sources */,
+				604F53592073BD60000CCAD4 /* ColorUIViewController.swift in Sources */,
 				6038FCD1206D0DCC000E78B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
